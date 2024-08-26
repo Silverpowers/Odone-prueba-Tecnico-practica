@@ -1,0 +1,10 @@
+diccionario = {'nombre': 'Mario', 'edad': 30}
+
+valor = diccionario.get('direccion', 'Clave no encontrada')
+print(valor)
+
+
+Yo la manejaria de esta manera, por medio de un get() ya que 
+este es más conciso y limpio solo cuando se quiere un 
+valor por defecto en caso de que la clave no exista.
+Ademas de realizar el respectivo informe al respecto.
