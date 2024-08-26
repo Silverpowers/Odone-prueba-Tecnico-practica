@@ -1,0 +1,20 @@
+def calcular_descuento(total_venta):
+    if total_venta > 500:
+        return 10
+    elif 100 <= total_venta <= 500:
+        return 5
+    else:
+        return 0
+
+# Ejemplo:
+total_venta1 = 600
+total_venta2 = 250
+total_venta3 = 50
+
+descuento1 = calcular_descuento(total_venta1)
+descuento2 = calcular_descuento(total_venta2)
+descuento3 = calcular_descuento(total_venta3)
+
+print(f"Descuento para una venta de ${total_venta1}: {descuento1}%")
+print(f"Descuento para una venta de ${total_venta2}: {descuento2}%")
+print(f"Descuento para una venta de ${total_venta3}: {descuento3}%")
